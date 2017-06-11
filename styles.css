@@ -1,139 +1,154 @@
 .container {
-		display: flex;
+    display: flex;
 }
+
 .card {
-	width: 20rem;
+    width: 20rem;
 }
+body {
+	background-color: #222222;
+}
+
 
 /* for tablet view port */
-@media (max-width: 700px) {
-	.container {
-		display:inline-block;
-		width:1300px;
-		overflow-x: auto;
-		border: solid 2px red;
-		white-space: nowrap;
-	}
 
-	.card {
-		width: 300px;
-		display:inline-block;
-	}
+@media (max-width: 700px) {
+    .container {
+        display: inline-block;
+        width: 1300px;
+        overflow-x: auto;
+        border: solid 2px red;
+        white-space: nowrap;
+    }
+    .card {
+        width: 300px;
+        display: inline-block;
+    }
 }
+
 
 /* reset for mobile again */
+
 @media (max-width: 550px) {
-.container {
-	display:block;
-	width:100%;
-	overflow-x: visible;
-	border: solid 2px blue;
-	white-space: normal;
-}
-
-.card {
-	width: 100%;
-	display:block;
-}
-}
-.bg-faded {
-    background-color: #000000;
-}
-#navbarSupportedContent ul li a {
-	color: white;
-}
-.navbar-nav a{
-	background-color: black;
-	transition-duration: 0.4s;
-}
-.navbar-nav a:hover {
-    color: rgba(86, 79, 79,.4);
-}
-.container img {
-
-}
-.border {
-	border: none;
-}
-.back {
-	background-color: black;
+    .container {
+        display: block;
+        width: 100%;
+        overflow-x: visible;
+        border: solid 2px blue;
+        white-space: normal;
+    }
+    .card {
+        width: 100%;
+        display: block;
+    }
 }
 .text {
-	color: #bfbfbf;
+    color: #bfbfbf;
 }
+
 ul {
-	list-style-type: none;
+    list-style-type: none;
 }
+
 .icons {
-	height: 24px;
-	width: 24px;
+    height: 24px;
+    width: 24px;
 }
 
-.carousel-caption {
+.carousel-caption {}
 
-}
 .img {
-	width: 100%;
+    width: 100%;
 }
+
 .imgbg {
-	padding-top: 34.5%;
-	width: 100%;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-color: black;
+    padding-top: 34.5%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
 }
+
 .img1 {
-	background-image: url('carousel1.png');
+    background-image: url('carousel1.png');
 }
+
 .img2 {
-	background-image: url('carousel2.png');
+    background-image: url('carousel2.png');
 }
+
 .img3 {
-	background-image: url('carousel3.png');
+    background-image: url('carousel3.png');
 }
 
 .cap1 {
-	background-color: rgba(0, 0, 0,0);
-	z-index: 20;
-	top: 30%;
-	left: 0;
-	text-align: left;
-	margin-left: 10%;
-	width: 25%;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 20;
+    top: 30%;
+    left: 0;
+    text-align: left;
+    margin-left: 10%;
+    width: 25%;
 }
+
 .cap1 h4 {
-	font-size: .75em;
+    font-size: .75em;
 }
+
 .cap2 {
-	background-color: rgba(0, 0, 0,0);
-	z-index: 20;
-	top: 10%;
-	left: 0;
-	text-align: left;
-	margin-left: 10%;
-	width: 25%;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 20;
+    top: 10%;
+    left: 0;
+    text-align: left;
+    margin-left: 10%;
+    width: 25%;
 }
-.cap2 div p {
 
-}
-.cap3 {
+.cap2 div p {}
 
-}
+.cap3 {}
+
 .topicons {
-	height: 1em;
+    height: 1em;
 }
+
 .description {
-	background-color: rgba(0,0,0,.5);
-	padding: 3%;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 3%;
 }
+
 .description p {
-	font-size: .75em;
+    font-size: .75em;
 }
+
 .caphead h3 {
-	font-weight: bold;
-	font-size: 2em;
+    font-weight: bold;
+    font-size: 2em;
 }
+
 .drive {
-	height: 25%;
+    height: 25%;
+}
+
+#img-tooltip {
+    position: absolute;
+}
+.bg-black {
+	background-color: rgba(0,0,0,8);
+}
+.background {
+	width: 95%;
+}
+.jeep {
+	width: 100%;
+}
+.jeep-1{
+	background-color: #D1D1D1;
+}
+.jeep-vehicles {
+	width: 95%;
+	background-color: white;
+	padding-top: 2%;
 }
