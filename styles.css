@@ -69,7 +69,6 @@ ul {
     background-position: center;
     background-color: black;
 }
-
 .img1 {
     background-image: url('carousel1.png');
 }
@@ -85,7 +84,7 @@ ul {
 .cap1 {
     background-color: rgba(0, 0, 0, 0);
     z-index: 20;
-    top: 30%;
+    top: 10%;
     left: 0;
     text-align: left;
     margin-left: 10%;
@@ -99,17 +98,62 @@ ul {
 .cap2 {
     background-color: rgba(0, 0, 0, 0);
     z-index: 20;
-    top: 10%;
+    top: 5%;
     left: 0;
     text-align: left;
     margin-left: 10%;
-    width: 25%;
+    width: 30%;
 }
 
 .cap2 div p {}
 
 .cap3 {}
+.imgbg2 {
+	padding-top: 45%;
+    width: 100%;
+    background-color: black;
+    padding-bottom: 3%;
+}
 
+.cap4 {
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 20;
+    top: 10%;
+    text-align: center;
+    padding-left: 5%;
+    
+}
+
+.cap4 h4 {
+    font-size: .75em;
+}
+
+.cap5 {
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 20;
+    text-align: center;
+    padding-left: 5%;
+    top: 5%;
+    font-size: .8em;
+}
+
+.cap2 div p {
+
+}
+
+.cap3 {
+
+}
+.drive-small {
+	height: 100px;
+	padding-bottom: 15px;
+}
+.imgbg3 {
+	padding-top: 100%;
+    width: 100%;
+    background-color: black;
+    padding-bottom: 10%;
+}
 .topicons {
     height: 1em;
 }
@@ -182,4 +226,18 @@ ul {
 	color: white;
 	font-size: .6em;
 	font-weight: bold;
+}
+.automobility {
+	text-align: center;
+	flex-wrap: wrap;
+}
+.automobility a {
+	padding: 2%;
+	text-decoration: none;
+	color: rgb(197, 190, 190);
+}
+.jeepbutton {
+	background-color: rgb(255,186,0);
+	border: none;
+	color: black;
 }
